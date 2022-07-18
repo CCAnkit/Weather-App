@@ -1,2 +1,2 @@
-WEATHER_KEY=[Weather API key can be found at https://home.openweathermap.org/api_keys]
-DB=[mongo database connection string can be found at on cloud.mongodb.com > Clusters > Connect button]
+WEATHER_KEY= "http://api.weatherapi.com/v1/current.json?key=591c2a070eab42f6bf1155347221707&q=Bangalore&aqi=no"
+DB= "mongodb+srv://CCAnkit:CCAnkit09@clusternew.gds9x.mongodb.net/DotKonnekt"
