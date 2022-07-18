@@ -1,6 +1,5 @@
 # Weather-App
 
-## DotKonnekt Assignment
 
 #### Backend TeckStacks 
 - NodeJS
