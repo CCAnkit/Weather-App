@@ -32,7 +32,7 @@
 - It takes Less Time and Space Complexity.
 
 
-#### Business Card API's
+#### Weather API's
 - 1. GET Request - statically get the weather data from the weather api
 - 2. POST Request - dynamically get the weather data based on request body
 - 3. POST Request - get the weather data from the api, save it to mongo, then return the data back
@@ -54,4 +54,24 @@
    method GET
    
    
-##### Feature 
+#### Feature and Mapper
+- 1. Current Mapper
+   const mapperCurrent = {
+    name: "town",
+    region: "state",
+    country: "Nation",
+    lat: "latitude",
+    lon: "longitude",
+    tz_id: "Time Zone",
+    localtime: "Time"
+   }
+
+- 2. Forecast Mapper
+   const mapperForecast = {
+    sunrise: "Dawn",
+    sunset: "Dusk",
+    moonrise: "moonlit",
+    moonset: "moonsleep",
+    moon_phase: "orientation",
+    moon_illumination: "Illumination"
+   }
